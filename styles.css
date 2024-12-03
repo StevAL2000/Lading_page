@@ -1,45 +1,53 @@
-/* Tamaños generales */ 
+/* Tamaños y posiciones */ 
 body {
     margin: 0;
     padding: none;
     border: none;
 }
+
 menu {
     display: flex ;
     text-align: center;
-    text-align: top;
     margin: 0%;
     padding: 0%;
-    background-color: rgba(0, 204, 255, 0.11) ;
-}
-
-.img_menu {
-    width: 100px ;
-    image-resolution: 1px;
-    text-align: left;
-    font-size: 36px;
-    margin-left: 5%
-
 }
 
 .button_menu {
+    display: flex;
+    justify-content: center;
     margin: auto;
     text-align: center;
+    align-content: center;
     border: 1% ;
-    padding: 1%;
+    padding: 0.8%;
 }
 
-button {
-    margin-top: 30px;
-    margin-left: 10%;
+.button_m {
+    margin-left: 0.5% ;
+    margin-right: 0.5% ;
 }
 
+/* Terminar de alinear los div del encabezado*/ 
+.encabezado{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.507);
+
+}
+.title{
+    display: flex;
+    text-align: center;
+}
+/* Terminar de alinear los div del encabezado*/ 
 
 /* Colores Generales*/ 
-button {
-    border: none;
-    background-color: #ffff;
-    border-color:  #ffff;
+
+body {
+    background-image: linear-gradient(to left, rgba(149, 0, 255, 0.159), rgba(0, 255, 247, 0.351));
+}
+
+.button_menu {
+    background-color:#ffffff39 ;
 
 }
 
@@ -99,5 +107,4 @@ button:hover::before {
 button:active::before {
     scale: 0.7;
 }
-  
   
