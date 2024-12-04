@@ -22,28 +22,13 @@ menu {
 }
 
 /* Configuración del encabezado*/
-.encabezado {
+.header {
+    background-color: rgba(255, 255, 255, 0.118);
     display: flex;
-    background-color: rgba(255, 255, 255, 0.507);
-    align-content: center;
-
+    justify-content: center;
 }
 
-.title_img {
-    display: flex;
-    align-items: center;
- 
-    
-}
 
-.titlebox {
-    display: inline-grid;
-}
-
-.imgbox {
-    display: flex;
-    align-items: center;
-}
 
 
 
